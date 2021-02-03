@@ -2,10 +2,33 @@
 <html>
 <body>
 
+
 <?php
-$score = 0;
-echo $score;
+ $voornaam = "Tom";
+echo gettype($voornaam);
 ?>
+
+<?php
+echo gettype(2);
+?>
+
+<?php
+echo gettype(2.1);
+?>
+
+<?php
+echo gettype ($x = true); 
+// of
+($x = false);
+?>
+
+
+<?php
+echo gettype ($x = null);
+?>
+
+
+
 
 </body>
 </html> 
