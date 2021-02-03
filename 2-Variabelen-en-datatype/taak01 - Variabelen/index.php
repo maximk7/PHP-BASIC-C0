@@ -4,10 +4,9 @@
 
 
 <?php
-$voornaam1 = ",maxim";
-$voornaam2 = "max";
-$voornaam3 = "maximkrymchanksy";
-echo "<li>$voornaam1</li><li>$voornaam2</li><li>$voornaam3</li>";
+$voornaam = "maxim";
+$leeftijd = "19";
+echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
 
 ?>
 
