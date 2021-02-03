@@ -4,11 +4,10 @@
 
 
 <?php
-$voornaam = "maxim";
-$leeftijd = "19";
-echo "Jouw naam is " . $voornaam . " en je bent " . $leeftijd . " jaar oud.";
-
-?>
+    echo $item = "<li>tas</li>";
+   echo $item2 = "<li>bal</li>";
+    echo $item3 = "<li>beker</li>";
+    ?>
 
 </body>
 </html> 
