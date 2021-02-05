@@ -4,10 +4,11 @@
 
 
 <?php
-   $myCatNames = array('tijger', 'mickey', 'tijger');
-  echo $myCatNames[0] =  'tijger';
- echo $myCatNames[1] =  'mickey';
- echo $myCatNames[2] =  'lotje';
+
+ $coders =  ['torvalds', 'gates', 'wozniak'];
+ $coders[3] =  'bos';
+ array_push($coders, 'bos');
+ print_r($coders)
 ?>
 </body>
 </html> 
