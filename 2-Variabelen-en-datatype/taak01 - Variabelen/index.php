@@ -4,10 +4,10 @@
 
 
 <?php
-  $myMovies = array("Spiderman", "Batman", "The Joker");
-  echo $myMovies[0];
-  echo $myMovies[1];
-  echo $myMovies[2];
-  ?>
+   $myCatNames = array('tijger', 'mickey', 'tijger');
+  echo $myCatNames[0] =  'tijger';
+ echo $myCatNames[1] =  'mickey';
+ echo $myCatNames[2] =  'lotje';
+?>
 </body>
 </html> 
