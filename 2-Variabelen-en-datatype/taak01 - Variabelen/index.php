@@ -4,12 +4,9 @@
 
 
 <?php
-  $score = 5;
-  
-  echo $score = $score + 10;
-  echo   $score += 10;
-  echo     $score -= 10;
-  echo    $score /= 10;
+   $score = 10;
+   echo ++$score;
+   echo --$score;
 ?>
 </body>
 </html> 
