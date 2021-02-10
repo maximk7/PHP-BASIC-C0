@@ -4,11 +4,16 @@
 
 
 <?php
+  $getal1 = 5;
+  $getal2 = 10;
+  echo $getal1 + $getal2;
+  
+  echo $getal2 - $getal1;
+  
+  echo $getal1 * $getal2;
+  
+  echo $getal1 / $getal2;
 
- $coders =  ['torvalds', 'gates', 'wozniak'];
- $coders[3] =  'bos';
- array_push($coders, 'bos');
- print_r($coders)
 ?>
 </body>
 </html> 
