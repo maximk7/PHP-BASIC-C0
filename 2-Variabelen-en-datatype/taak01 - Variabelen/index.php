@@ -4,16 +4,12 @@
 
 
 <?php
-  $getal1 = 5;
-  $getal2 = 10;
-  echo $getal1 + $getal2;
+  $score = 5;
   
-  echo $getal2 - $getal1;
-  
-  echo $getal1 * $getal2;
-  
-  echo $getal1 / $getal2;
-
+  echo $score = $score + 10;
+  echo   $score += 10;
+  echo     $score -= 10;
+  echo    $score /= 10;
 ?>
 </body>
 </html> 
